@@ -22,7 +22,7 @@ This project demonstrates an interactive LLM agent built with Google's ADK (Agen
 ---
 
 ## 📋 Prerequisites
-- Python 3.8+
+- Python 3.11+
 - Google Gemini API Key
 - Git (for version control)
 - WSL (Windows Subsystem for Linux) - recommended for development
