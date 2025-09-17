@@ -10,6 +10,8 @@
 ## 🎯 Project Description
 This project demonstrates an interactive LLM agent built with Google's ADK (Agent Development Kit) and `google-generativeai` library. The agent can chat with users about capital cities, showing the complete sequence of operations including tool usage, memory access, and LLM calls.
 
+**📺 Inspired by:** This implementation is based on and extends the concepts presented in KodeKloud's TikTok tutorial about Google AI agents.
+
 ### ✨ Features
 - **Interactive Chat**: Real-time conversation with the agent
 - **Operation Logging**: See every step (USER → MEMORY → LLM → TOOL → AGENT)
@@ -312,6 +314,8 @@ https://github.com/rmisegal/interactive-capital-city-agent
 ---
 
 ## 🙏 Acknowledgments
+- **KodeKloud** for the inspiring TikTok video tutorial that served as the foundation for this project  
+  📺 [Watch the original video](https://www.tiktok.com/@kodekloud/video/7550305525427096837?_r=1&_t=ZS-8zlYT4s0rP5)
 - Google AI for the Gemini API and ADK framework
 - OpenAI for inspiring agent-based architectures
 - The open source community for tools and libraries used
