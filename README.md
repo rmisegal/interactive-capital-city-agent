@@ -8,7 +8,7 @@
 ---
 
 ## 🎯 Project Description
-This project demonstrates an interactive LLM agent built with Google's ADK (Agent Development Kit) and `google-generativeai` library. The agent can chat with users about capital cities, showing the complete sequence of operations including tool usage, memory access, and LLM calls.
+This is a simple, basic demonstration of how to use a real AI Agent using Google ADK (Agent Development Kit). This project demonstrates an interactive LLM agent built with Google's ADK and `google-generativeai` library. The agent can chat with users about capital cities, showing the complete sequence of operations including tool usage, memory access, and LLM calls.
 
 **📺 Inspired by:** This implementation is based on and extends the concepts presented in KodeKloud's TikTok tutorial about Google AI agents.
 
