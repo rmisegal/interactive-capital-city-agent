@@ -1,0 +1,78 @@
+# Git Exclude List - Files to never upload/download from GitHub
+# This file lists files that should not be shared in the repository
+
+# Environment files with API keys
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Personal configuration files
+config.json
+secrets.json
+credentials.json
+api_keys.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database.json
+
+# Log files
+*.log
+logs/
+debug.log
+error.log
+
+# Personal scripts and notes
+personal_notes.txt
+todo.txt
+scratch.py
+test_personal.py
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific settings
+.vscode/settings.json
+.idea/workspace.xml
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Cache directories
+.cache/
+__pycache__/
+.pytest_cache/
+
+# Virtual environments (should use requirements.txt instead)
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Node modules (if using Node.js)
+node_modules/
+
+# Local development files
+local_development.py
+dev_test.py
+my_*.py

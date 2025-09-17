@@ -52,12 +52,18 @@ source .venv/Scripts/activate
 ## 🔑 API Key Configuration
 
 ### Method 1: Environment File (.env) - Recommended
-1. Update the `.env` file in the project root:
+1. Copy the template file and add your API key:
 ```bash
+# Copy template to create your .env file
+cp .env.template .env
+
+# Edit .env and replace the placeholder with your actual key
 GEMINI_API_KEY=your_actual_api_key_here
 ```
 
 2. The application will automatically load this key using `python-dotenv`
+
+**Important**: The `.env` file is excluded from Git tracking for security!
 
 ### Method 2: System Environment Variables
 
@@ -213,14 +219,23 @@ source .venv/Scripts/activate
 
 ## 📁 Project Structure
 ```
-capital-city-agent/
-├── .env                 # API key configuration
-├── .venv/              # Virtual environment
-├── main.py             # Main application
-├── requirements.txt    # Python dependencies
-├── README.md          # This file
-└── .gitignore         # Git ignore rules
+interactive-capital-city-agent/
+├── .env.template       # Environment template (safe to share)
+├── .env               # Your actual API keys (excluded from Git)
+├── .venv/             # Virtual environment (excluded)
+├── .gitignore         # Git ignore rules
+├── .gitexclude        # Extended exclude list for reference
+├── main.py            # Main application
+├── requirements.txt   # Python dependencies
+├── README.md         # This file
+└── list_*.py         # Helper scripts
 ```
+
+### 🔒 Security Files:
+- **`.env`** - Your actual environment variables (never uploaded)
+- **`.env.template`** - Safe template for others to copy
+- **`.gitignore`** - Files excluded from Git tracking
+- **`.gitexclude`** - Reference list of files to never share
 
 ---
 

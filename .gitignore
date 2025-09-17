@@ -43,8 +43,18 @@ Thumbs.db
 # Logs
 *.log
 
-# Local environment variables (keep .env as template)
-# .env
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# API Keys and secrets
+config.json
+secrets.json
+credentials.json
+api_keys.txt
 
 # Claude Code
 .claude/
