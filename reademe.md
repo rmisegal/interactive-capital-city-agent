@@ -1,5 +1,12 @@
 # Interactive Capital City Agent
 
+**Version:** 1.0  
+**Created:** September 17, 2025 11:07:03 IDT (Jerusalem Time)  
+**Author:** Dr. Yoram Segal ([Gal Technologies Artificial Intelligence Ltd.](https://github.com/rmisegal))  
+**Repository:** https://github.com/rmisegal/interactive-capital-city-agent  
+
+---
+
 ## 🎯 Project Description
 This project demonstrates an interactive LLM agent built with Google's ADK (Agent Development Kit) and `google-generativeai` library. The agent can chat with users about capital cities, showing the complete sequence of operations including tool usage, memory access, and LLM calls.
 
@@ -277,3 +284,38 @@ interactive-capital-city-agent/
 - The agent demonstrates Google ADK patterns but uses direct Gemini API calls for clarity
 - All operations are logged for educational purposes
 - WSL environment recommended for consistent behavior
+
+---
+
+## 📄 License & Copyright
+
+**Copyright (c) 2025 Dr. Yoram Segal (Gal Technologies Artificial Intelligence Ltd.). All rights reserved.**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### MIT License Summary
+- ✅ Commercial use
+- ✅ Modification
+- ✅ Distribution  
+- ✅ Private use
+- ❌ Liability
+- ❌ Warranty
+
+### Attribution
+If you use this code in your projects, please provide attribution:
+```
+Interactive Capital City Agent by Dr. Yoram Segal
+Gal Technologies Artificial Intelligence Ltd.
+https://github.com/rmisegal/interactive-capital-city-agent
+```
+
+---
+
+## 🙏 Acknowledgments
+- Google AI for the Gemini API and ADK framework
+- OpenAI for inspiring agent-based architectures
+- The open source community for tools and libraries used
+
+---
+
+*Built with ❤️ in Jerusalem, Israel 🇮🇱*

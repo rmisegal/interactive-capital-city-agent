@@ -1,3 +1,22 @@
+#!/usr/bin/env python3
+"""
+Interactive Capital City Agent with Operation Logging
+Version: 1.0
+Created: 2025-09-17 11:07:03 IDT (Jerusalem Time)
+Author: Dr. Yoram Segal (Gal Technologies Artificial Intelligence Ltd.)
+Repository: https://github.com/rmisegal/interactive-capital-city-agent
+
+Copyright (c) 2025 Dr. Yoram Segal (Gal Technologies Artificial Intelligence Ltd.). All rights reserved.
+
+This program demonstrates an interactive LLM agent built with Google's ADK 
+(Agent Development Kit) and google-generativeai library. The agent can chat 
+with users about capital cities, showing the complete sequence of operations 
+including tool usage, memory access, and LLM calls.
+
+Licensed under MIT License.
+See LICENSE file in the project root for full license text.
+"""
+
 import asyncio
 import os
 from dotenv import load_dotenv
